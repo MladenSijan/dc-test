@@ -52,31 +52,30 @@ npm install
 
 ### Adding third party libraries (optional)
 
-You can provide additional third party libraries as plugins registering them in __webpack.dev.config.js__ file.
 
-In this example jQuery is appended in PLUGINS array where you define it's alias names that will be used when you import that library in your code.
+__Note that jQuery is already included in this boilerplate code by default, but you can append additional libraries if necessary__
 
-__Note that jQuery is already included in this boilerplate code by default, but you can append additional libraries if necessary__:
+
+If you want to use third party libraries, you should first install them via **npm install library_name --save**
+
+You can provide them as plugins by registering them in __webpack.dev.config.js__ file.
+
+In this example jQuery and momentjs are appended in PLUGINS array where you define it's alias names that will be used when you import that library in your code.
+
 
 ```
 const PLUGINS = [
-    new CleanWebpackPlugin("dist/build"),
-    new MiniCssExtractPlugin({
-        filename: "build.css"
-    }),
     new webpack.ProvidePlugin({
         $: 'jquery',
-        jQuery: 'jquery'
+        jQuery: 'jquery',
+        moment: 'moment',
     })
 ];
 ```
 
 
-Since you have registered third party libraries in your project, you can now import them in __js/scripts.js__ file. For example:
+Since you have registered third party libraries in your project, you **don't have to import** them explicitly in __js/scripts.js__ file.
 
-```
-import 'jquery';
-```
 
 Now you will be able to use them with caution on ordering imports if some of them are dependent on each other.
 
