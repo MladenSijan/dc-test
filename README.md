@@ -77,8 +77,6 @@ const PLUGINS = [
 Since you have registered third party libraries in your project, you **don't have to import** them explicitly in __js/scripts.js__ file.
 
 
-Now you will be able to use them with caution on ordering imports if some of them are dependent on each other.
-
 
 ## Running
 
