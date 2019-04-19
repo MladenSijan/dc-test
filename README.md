@@ -3,10 +3,13 @@
 
 > Codebase is set up and managed using [Webpack4](https://webpack.js.org/)
 
-When it comes to app functionalities, you have to enable a feature where when you click on menu icon, __sidebar should appear aside the content__ (You are given the image as a mail attachment where you can see how it should look like). All other requirements and information for task are provided to you via email.
+When it comes to app functionalities, you have to enable a feature where when you click on menu icon, __sidebar should appear aside the content__ (You are given the image as a mail attachment where you can see how it should look like).
+
+Requred design for website is located in __design prototype__ folder where desktop and mobile version are provided along with style guide (font sizes and color palette).
+
+All other requirements and information for task are provided to you via email.
 
 **The part that you will be working on is located in *src* folder where the structure is already set up with appropriate assets and *index.html* is located in *dist* folder where it's content should be added.**
-
 
 You can write all your styles in css/style.scss file and __writing it as SASS code will be considered as a plus__.
 
