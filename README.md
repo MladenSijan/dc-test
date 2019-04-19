@@ -5,7 +5,7 @@
 
 When it comes to app functionalities, you have to enable a feature where when you click on menu icon, __sidebar should appear aside the content__ (You are given the image as a mail attachment where you can see how it should look like). All other requirements and information for task are provided to you via email.
 
-**The part that you will be working on is located in *__src__* folder where the structure is already set up with appropriate assets and index.htmlis located in *__dist__* folder where it's content should be added.**
+**The part that you will be working on is located in *src* folder where the structure is already set up with appropriate assets and *index.html* is located in *dist* folder where it's content should be added.**
 
 
 You can write all your styles in css/style.scss file and __writing it as SASS code will be considered as a plus__.
