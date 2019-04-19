@@ -11,7 +11,9 @@ All other requirements and information for task are provided to you via email.
 
 **The part that you will be working on is located in *src* folder where the structure is already set up with appropriate assets and *index.html* is located in *dist* folder where it's content should be added.**
 
-You can write all your styles in css/style.scss file and __writing it as SASS code will be considered as a plus__.
+You should write javascript code in **src/js/scripts.js** file.
+
+You can write all your styles in **src/css/style.scss** file and __writing it as SASS code will be considered as a plus__.
 
 After you complete the task, you have to ZIP whole folder __EXCLUDING node_modules FOLDER__ and send it to us via email (or providing link to google drive)
 
