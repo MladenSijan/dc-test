@@ -5,7 +5,7 @@
 
 When it comes to app functionalities, you have to enable a feature where when you click on menu icon, __sidebar should appear aside the content__ (You are given the image as a mail attachment where you can see how it should look like).
 
-Requred design for website is located in __design prototype__ folder where desktop and mobile version are provided along with style guide (font sizes and color palette).
+Required design for website is located in __design prototype__ folder where desktop and mobile version are provided along with style guide (font sizes and color palette).
 
 All other requirements and information for task are provided to you via email.
 
