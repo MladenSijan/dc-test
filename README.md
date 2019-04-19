@@ -74,7 +74,7 @@ const PLUGINS = [
 ```
 
 
-Since you have registered third party libraries in your project, you **don't have to import** them explicitly in __js/scripts.js__ file.
+Since you have registered third party libraries in your project, you can use them straightforward **without having to import them explicitly** in __js/scripts.js__ file.
 
 
 
