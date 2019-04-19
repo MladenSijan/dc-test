@@ -3,13 +3,14 @@
 
 > Codebase is set up and managed using [Webpack4](https://webpack.js.org/)
 
-> When it comes to app functionalities, you have to enable a feature where when you click on menu icon, __sidebar should appear aside the content__ (You are given the image as a mail attachment where you can see how it should look like). All other requirements and information for task are provided to you via email.
+When it comes to app functionalities, you have to enable a feature where when you click on menu icon, __sidebar should appear aside the content__ (You are given the image as a mail attachment where you can see how it should look like). All other requirements and information for task are provided to you via email.
 
-> The part that you will be working on is located in __src__ folder where the structure is already set up with appropriate assets and __index.html__ is located in __dist__ folder where it's content should be added.
+**The part that you will be working on is located in *__src__* folder where the structure is already set up with appropriate assets and index.htmlis located in *__dist__* folder where it's content should be added.**
 
-> You can write all your styles in css/style.scss file and __writing it as SASS code will be considered as a plus__.
 
-> After you complete the task, you have to ZIP whole folder __EXCLUDING node_modules FOLDER__ and send it to us via email (or providing link to google drive)
+You can write all your styles in css/style.scss file and __writing it as SASS code will be considered as a plus__.
+
+After you complete the task, you have to ZIP whole folder __EXCLUDING node_modules FOLDER__ and send it to us via email (or providing link to google drive)
 
 ## Setup
 
@@ -83,3 +84,4 @@ Following command starts an app on given port, recompiles it on detected changes
 ```bash
 npm run start
 ```
+
